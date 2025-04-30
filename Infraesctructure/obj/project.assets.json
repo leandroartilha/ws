@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Documents\\Faculdade\\TCC\\Infraesctructure\\Infraesctructure.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\Documents\\Faculdade\\copiaaaa\\ws\\ChatWebSocket\\ws\\Infraesctructure\\Infraesctructure.csproj",
       "projectName": "Infraesctructure",
-      "projectPath": "C:\\Users\\leand\\Documents\\Faculdade\\TCC\\Infraesctructure\\Infraesctructure.csproj",
+      "projectPath": "C:\\Users\\leand\\Documents\\Faculdade\\copiaaaa\\ws\\ChatWebSocket\\ws\\Infraesctructure\\Infraesctructure.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\Documents\\Faculdade\\TCC\\Infraesctructure\\obj\\",
+      "outputPath": "C:\\Users\\leand\\Documents\\Faculdade\\copiaaaa\\ws\\ChatWebSocket\\ws\\Infraesctructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",

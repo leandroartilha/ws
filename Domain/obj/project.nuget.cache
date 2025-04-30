@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "72oj2d2YVGbwSmBDtjVHaSBUy1MIBnbyEW5/M6pmlD26lzoDVHqQl3+7qTYq25IHAQJOSBsCW7B9CciGkMHJQg==",
+  "dgSpecHash": "yuYHNAPnf459f68FJAEEqP1gFzEap0AwasSKGfO6jBpG318H2L1SYoWLV3PpkMbML11foT6tLSUlkZhmTCteMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\Documents\\Faculdade\\TCC\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\leand\\Documents\\Faculdade\\copiaaaa\\ws\\ChatWebSocket\\ws\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leand\\.nuget\\packages\\mongodb.bson\\3.3.0\\mongodb.bson.3.3.0.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
