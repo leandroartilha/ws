@@ -1,18 +1,31 @@
 ﻿using Domain.DomainEntities.User;
 using Domain.Interfaces;
+using Infraesctructure.Data;
+using MongoDB.Driver;
 
 namespace Infraesctructure.Repositories
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
-        public void CreateUser(User user)
+        private readonly IDBContext _context;
+
+        public UserRepository(IDBContext context)
         {
-            throw new NotImplementedException();
+            _context = context ??
+                throw new ArgumentNullException(nameof(context));
+        }
+        public async Task CreateUser(User user)
+        {
+            await _context.User.InsertOneAsync(user);
         }
 
-        public Task<User> GetUser(string email)
+        public async Task<User> GetUser(string email)
         {
-            throw new NotImplementedException();
+            var filter = Builders<User>.Filter.Eq(x => x.Email, email);
+
+            var user = await _context.User.Find(filter).FirstOrDefaultAsync();
+
+            return user;
         }
     }
 }
